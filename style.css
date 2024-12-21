@@ -1,0 +1,87 @@
+*{
+    background-color: rgb(223, 19, 162);
+    font-family: sans-serif;  
+}
+
+#heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px; 
+}
+
+input{
+    width: 400px;
+}
+
+#input{
+    position: relative;
+    left: 545px;
+    top: 50px;
+    background-color: rgb(255, 255, 255);
+    padding: 12px;
+    border-radius: 12px;
+    font-size: 20px;
+    outline: none;
+    border: transparent;
+    transition: border 0.5s ease;   
+}
+
+#btna{
+    position: absolute;
+    top: 179px;
+    left: 990px;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-color: transparent;
+}
+#btna:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition: 0.3s;
+}
+
+#list-container{
+    position: absolute;
+    top: 250px;
+    left: 680px;
+}
+
+#btnb{
+    position: relative;
+    top: -5px;
+    margin-left: 10px;
+    padding: 8px 20px;  
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgb(5, 5, 5);
+    color: white;
+    border-color: transparent;
+}
+
+#btnb:hover{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+li{
+    margin-top: 20px;
+    margin-bottom: 4px;
+    margin-left: -100px;
+    font-size: 25px;
+}
+
+#input:focus::placeholder{
+    color: transparent;
+}
+
+#input::placeholder{
+    position: relative;
+    left: 10px;
+    color: rgb(121, 121, 121);
+    transition: color 0.3s ease;
+}
